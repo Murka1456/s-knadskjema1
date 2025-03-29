@@ -8,3 +8,8 @@ kjønn.addEventListener("velg", function(event)){
   console.log("kjønn valgt")
 };
 
+const userInput = document.querySelector("#userInput").ariaValueMax;
+console.log(userInput)
+const todoList = document.createElement("li");
+todoItem.textContent = userInput;
+todoList.appendChild(todoItem);
