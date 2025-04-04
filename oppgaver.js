@@ -1,10 +1,10 @@
-EKSTRA OPPGAVER:
+// EKSTRA OPPGAVER:
 
-1.
-Se over koden under,
-Kommenter ut objektet,
-lag en forEach som finner hvert navn, pusher navnene inn i ny array og får hvert navn ut i HTML
-*/
+// 1.
+// Se over koden under,
+// Kommenter ut objektet,
+// lag en forEach som finner hvert navn, pusher navnene inn i ny array og får hvert navn ut i HTML
+// */
 
 /*
 const passengers = [

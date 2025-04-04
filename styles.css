@@ -1,0 +1,33 @@
+h1 {
+  color: coral;
+  text-align: center;
+}
+h3 {
+  text-align: start;
+  color: coral;
+}
+input {
+  display: block;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#addTodo {
+  border-radius: 12px;
+  background-color: coral;
+  color: beige;
+  font-size: medium;
+  max-width: fit-content;
+  padding: 2px;
+}
+/* #userRadio {
+} */
+.allebehov {
+  display: flex;
+  background-color: lightblue;
+
+}
