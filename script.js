@@ -1,8 +1,4 @@
-const addTodo = document.querySelector("#addTodo");
-addTodo.addEventListener("click",function(event) {
-  Event.preventDefault();
-  console.log("Knappen er trykket !");
-})
+
 const todoItem = document.createElement("li");
 todoItem.textContent = userInput;
 todoList.appendChild(todoItem);
@@ -13,5 +9,15 @@ console.log(gender)
 //   console.log("kjønn valgt")
 // })
 
-const userInput = document.querySelector("#userInput").ariaValueMax;
-console.log(userInput)
+// const userInput = document.querySelector("#userInput").ariaValueMax;
+// console.log(userInput)
+
+function hentSvar() {
+  console.log("hello")
+}
+
+const addTodo = document.querySelector("#addTodo");
+addTodo.addEventListener("click",function(event) {
+  Event.preventDefault();
+  console.log("Knappen er trykket !");
+})
