@@ -1,5 +1,5 @@
 
-const todoItem = document.createElement("li");
+// /const todoItem = document.createElement("li");
 todoItem.textContent = userInput;
 todoList.appendChild(todoItem);
 
