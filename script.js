@@ -12,12 +12,13 @@ console.log(gender)
 // const userInput = document.querySelector("#userInput").ariaValueMax;
 // console.log(userInput)
 
-function hentSvar() {
-  console.log("hello")
-}
+// /function hentSvar() {
+
 
 const addTodo = document.querySelector("#addTodo");
 addTodo.addEventListener("click",function(event) {
-  Event.preventDefault();
+  event.preventDefault();
   console.log("Knappen er trykket !");
+
+  // All const som henter fra HTML her
 })
